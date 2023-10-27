@@ -76,8 +76,8 @@ class Pokemon {
     }
   }
   
-  let pokemon1 = new Pokemon("Pikachu", 90, 30, 100, 70); 
-  let pokemon2 = new Pokemon("Bulbizar", 100, 50, 120, 60); 
+  let pokemon1 = new Pokemon("Pikachu", 95, 45, 100, 0.7); 
+  let pokemon2 = new Pokemon("Bulbizar", 100, 50, 120, 0.6); 
   
   while (pokemon1.hp > 0 && pokemon2.hp > 0) {
     // Premier Pokémon attaque le second
